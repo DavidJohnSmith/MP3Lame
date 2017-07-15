@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity(), AudioStageListener {
 
     private val DEFAULT_SAMPLING_RATE = 44100
 
+
     val mp3Recorder: MP3Recorder = MP3Recorder()
             .setSampleRate(DEFAULT_SAMPLING_RATE)
             .setFilePath(getInnerSDCardPath() + File.separator + "voice.mp3")
